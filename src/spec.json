@@ -1,0 +1,279 @@
+{
+  "title": "Gestione segnalazioni di manutenzione",
+  "description": "Prototipo navigabile per registrare, filtrare e smistare segnalazioni inventate relative a buche, illuminazione pubblica e verde.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Indicatori per categoria e riepilogo delle segnalazioni recenti. Usa la tabella per filtrare e consultare gli interventi.",
+      "metrics": [
+        {
+          "label": "Segnalazioni aperte",
+          "value": "8"
+        },
+        {
+          "label": "Buche",
+          "value": "3"
+        },
+        {
+          "label": "Illuminazione",
+          "value": "3"
+        },
+        {
+          "label": "Verde",
+          "value": "2"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "5"
+        },
+        {
+          "label": "Chiuse",
+          "value": "4"
+        }
+      ],
+      "columns": [
+        "Codice",
+        "Categoria",
+        "Via",
+        "Priorità",
+        "Squadra",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "MNT-204",
+          "Buche",
+          "Via delle Lanterne",
+          "Alta",
+          "Squadra Lumo",
+          "Nuova"
+        ],
+        [
+          "MNT-203",
+          "Illuminazione",
+          "Viale delle Nebbie",
+          "Media",
+          "Squadra Vela",
+          "In lavorazione"
+        ],
+        [
+          "MNT-202",
+          "Verde",
+          "Piazza dei Nembi",
+          "Bassa",
+          "Squadra Nubi",
+          "Chiusa"
+        ],
+        [
+          "MNT-201",
+          "Buche",
+          "Via del Sussurro",
+          "Alta",
+          "Squadra Lumo",
+          "In lavorazione"
+        ],
+        [
+          "MNT-200",
+          "Illuminazione",
+          "Corso delle Comete",
+          "Media",
+          "Squadra Vela",
+          "Nuova"
+        ],
+        [
+          "MNT-199",
+          "Verde",
+          "Via dei Salici Azzurri",
+          "Bassa",
+          "Squadra Nubi",
+          "In lavorazione"
+        ],
+        [
+          "MNT-198",
+          "Buche",
+          "Piazzale dei Girasoli",
+          "Media",
+          "Squadra Lumo",
+          "Chiusa"
+        ],
+        [
+          "MNT-197",
+          "Illuminazione",
+          "Via della Bruma",
+          "Alta",
+          "Squadra Vela",
+          "In lavorazione"
+        ],
+        [
+          "MNT-196",
+          "Verde",
+          "Viale delle Farfalle",
+          "Bassa",
+          "Squadra Nubi",
+          "Chiusa"
+        ],
+        [
+          "MNT-195",
+          "Buche",
+          "Via dei Cristalli",
+          "Alta",
+          "Squadra Lumo",
+          "Nuova"
+        ],
+        [
+          "MNT-194",
+          "Illuminazione",
+          "Piazza delle Maree",
+          "Media",
+          "Squadra Vela",
+          "Chiusa"
+        ],
+        [
+          "MNT-193",
+          "Verde",
+          "Corso dei Tigli Dorati",
+          "Media",
+          "Squadra Nubi",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "segnalazioni",
+      "title": "Segnalazioni",
+      "description": "Elenco completo, ricercabile e filtrabile per categoria, priorità, squadra e stato. Le segnalazioni nuove possono essere aggiunte con il modulo dedicato.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Categoria",
+        "Via",
+        "Priorità",
+        "Squadra",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "MNT-204",
+          "Buche",
+          "Via delle Lanterne",
+          "Alta",
+          "Squadra Lumo",
+          "Nuova"
+        ],
+        [
+          "MNT-203",
+          "Illuminazione",
+          "Viale delle Nebbie",
+          "Media",
+          "Squadra Vela",
+          "In lavorazione"
+        ],
+        [
+          "MNT-202",
+          "Verde",
+          "Piazza dei Nembi",
+          "Bassa",
+          "Squadra Nubi",
+          "Chiusa"
+        ],
+        [
+          "MNT-201",
+          "Buche",
+          "Via del Sussurro",
+          "Alta",
+          "Squadra Lumo",
+          "In lavorazione"
+        ],
+        [
+          "MNT-200",
+          "Illuminazione",
+          "Corso delle Comete",
+          "Media",
+          "Squadra Vela",
+          "Nuova"
+        ],
+        [
+          "MNT-199",
+          "Verde",
+          "Via dei Salici Azzurri",
+          "Bassa",
+          "Squadra Nubi",
+          "In lavorazione"
+        ],
+        [
+          "MNT-198",
+          "Buche",
+          "Piazzale dei Girasoli",
+          "Media",
+          "Squadra Lumo",
+          "Chiusa"
+        ],
+        [
+          "MNT-197",
+          "Illuminazione",
+          "Via della Bruma",
+          "Alta",
+          "Squadra Vela",
+          "In lavorazione"
+        ],
+        [
+          "MNT-196",
+          "Verde",
+          "Viale delle Farfalle",
+          "Bassa",
+          "Squadra Nubi",
+          "Chiusa"
+        ],
+        [
+          "MNT-195",
+          "Buche",
+          "Via dei Cristalli",
+          "Alta",
+          "Squadra Lumo",
+          "Nuova"
+        ],
+        [
+          "MNT-194",
+          "Illuminazione",
+          "Piazza delle Maree",
+          "Media",
+          "Squadra Vela",
+          "Chiusa"
+        ],
+        [
+          "MNT-193",
+          "Verde",
+          "Corso dei Tigli Dorati",
+          "Media",
+          "Squadra Nubi",
+          "In lavorazione"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-segnalazione",
+      "title": "Nuova segnalazione",
+      "description": "Inserisci una segnalazione e assegnala alla squadra coerente con la categoria; il nuovo elemento comparirà nell’elenco come nuova.",
+      "metrics": [],
+      "columns": [
+        "Categoria",
+        "Via",
+        "Priorità",
+        "Squadra",
+        "Stato"
+      ],
+      "rows": [],
+      "form": [
+        "Categoria",
+        "Via",
+        "Priorità",
+        "Squadra",
+        "Stato"
+      ]
+    }
+  ]
+}
